@@ -51,6 +51,14 @@ h3 {
     line-height: 1.5;
 }
 
+h4 {
+    color: #3d85c6;
+    font-size: 18pt;
+    font-family: aclonica;
+    margin-bottom: 2px;
+     
+}
+
 p {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     line-height: 1.5;
@@ -93,7 +101,14 @@ footer p, a {
 .squish_text {
     line-height: normal;
     font-size: 14pt;
+}
+
+.high_top {
     margin-top: 50px;
+    text-align: justify;
+}
+
+.justify {
     text-align: justify;
 }
 
@@ -138,6 +153,10 @@ footer p, a {
     text-decoration: none;
 }
 
+.spacer {
+    height: 50px;
+}
+
 
 #logowtext {
     max-width: 1200px;
@@ -159,6 +178,16 @@ footer p, a {
 
 #copy {
     text-align: center;
+}
+
+#modalities {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
 }
 
 
