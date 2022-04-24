@@ -65,6 +65,21 @@ p {
     font-size: 14pt;
 
 }
+
+a {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1em;   
+}
+a:link {
+    color: #3d85c6;
+}
+a:visited {
+    color: #38761d;
+}
+a:hover {
+    color: purple;
+}
+
 button {
     background-color: #38761d;
     color: #ffff;
@@ -92,7 +107,7 @@ img {
 }
 
 
-footer p, a {
+footer p, footer a {
     font-size: small;
     line-height: 1;
 }
@@ -135,6 +150,24 @@ footer p, a {
     text-align: center;
 }
 
+.small_col {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.button_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.button_row button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .center {
     text-align: center;
 }
@@ -155,6 +188,11 @@ footer p, a {
 
 .spacer {
     height: 50px;
+}
+
+.calendly-inline-widget {
+    min-width: 320px;
+    height: 650px;
 }
 
 
@@ -190,6 +228,16 @@ footer p, a {
     
 }
 
+#agreement {
+    width: 900px;
+    height: 1500px;
+    margin: 30px auto;
+    display: block;
+    
+  
+}
+
+
 
 @media only screen and (min-width: 1500px) {
     .big_screen_only {
@@ -200,16 +248,37 @@ footer p, a {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .calendly-inline-widget {
+        width: 550px;
+        height: 1100px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+
 @media only screen and (max-width: 1000px) {
     .stack_early {
         flex-direction: column;
         align-items: center;
     }
+    
     #logotagline h2 {
         margin-top: -15px;
         font-size: 18px;
     }
+    #agreement {
+        width: 600px;
+        height: 1620px;
+    }
 
+    .calendly-inline-widget {
+        width: 550px;
+        height: 1100px;
+        display: flex;
+        margin: auto;
+    }
 }
   
 @media only screen and (max-width: 600px) {
@@ -226,8 +295,31 @@ footer p, a {
     .hide_big_screen {
         display: none;
     }
+    #agreement {
+        width: 500px;
+        height: 1750px;
+    }
     #logotagline h2 {
         margin-top: -5px;
         font-size: 12px;
+    }
+    .calendly-inline-widget {
+        width: 450px;
+        height: 1020px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #agreement {
+        width: 320px;
+        height: 2380px;
+    }
+    .calendly-inline-widget {
+        width: 320px;
+        height: 1075px;
+        display: flex;
+        margin: auto;
     }
 }
