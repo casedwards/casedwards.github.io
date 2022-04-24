@@ -329,6 +329,7 @@ footer p, footer a {
     #logotagline > h2 {
         color: #805ea0;
         font-size: 10px;
+        text-shadow: none;
     }
 
 }
