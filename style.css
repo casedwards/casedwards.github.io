@@ -151,9 +151,14 @@ footer p, footer a {
 }
 
 .small_col {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#session_cards {
+    max-width: 800px;
+    justify-content: space-around;
 }
 
 .smlogo {
@@ -169,11 +174,11 @@ footer p, footer a {
     border-radius: 20px; 
     transition: 0.3s;
     cursor: pointer; 
-    width: 400px;
-    max-width: 100%;
+    width: 320px;
     height: 400px;
     margin: auto;
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-right: 50px;
     margin-bottom: 30px;
   
 
