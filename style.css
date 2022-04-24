@@ -153,6 +153,39 @@ footer p, footer a {
 .small_col {
     max-width: 1200px;
     margin: auto;
+    justify-content: center;
+}
+
+.smlogo {
+    max-width: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.divbutton {
+    border: 2px solid black;
+    border-radius: 20px; 
+    transition: 0.3s;
+    cursor: pointer; 
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+   
+}
+.divbutton h3 {
+    text-decoration: underline;
+}
+.divbutton:hover {
+    background-color: #4b3e36;
+    transform: scale(1.1);
+    
 }
 
 .button_row {
@@ -166,7 +199,6 @@ footer p, footer a {
 .button_row button {
     margin-right: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
 }
 
 .center {
@@ -332,5 +364,7 @@ footer p, footer a {
         font-size: 10px;
         text-shadow: none;
     }
-
+    .button_row button {
+        margin-bottom: 20px;
+    }
 }
