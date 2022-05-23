@@ -12,7 +12,6 @@ body {
 	max-width: 1920px; 
 	margin: 0 auto !important; 
 	float: none !important; 
-    padding: 20px;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -28,7 +27,7 @@ header {
     position: relative;
     font-size: x-large;
     z-index: -1;
-    background-attachment: fixed;    
+    background-attachment: fixed;   
     
 }
 
@@ -37,26 +36,44 @@ main {
     width: 100%;
     position: relative;
     z-index: 1;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
 }
- 
+
+section {
+    padding: 10px 40px;
+}
 
 
 h1, h2, h3 {
     color: #38761d;
 }
 
-h3 {
+h1 {
     font-size: 20pt;
     font-family: aclonica;
     line-height: 1.5;
 }
 
-h4 {
+h2 {
+    font-size: 20pt;
+    font-family: aclonica;
+    line-height: 1.5;
+}
+
+h3 {
     color: #3d85c6;
     font-size: 18pt;
     font-family: aclonica;
     margin-bottom: 2px;
      
+}
+
+h5 {
+
 }
 
 p {
@@ -146,19 +163,20 @@ footer p, footer a {
 
 }
 
-.col h3 {
+.col h2 {
     text-align: center;
 }
 
 .small_col {
     max-width: 1600px;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #session_cards {
-    max-width: 800px;
+    max-width: 900px;
     justify-content: space-around;
+    
 }
 
 .smlogo {
@@ -175,16 +193,17 @@ footer p, footer a {
     transition: 0.3s;
     cursor: pointer; 
     width: 320px;
-    height: 400px;
+    height: 450px;
     margin: auto;
     margin-left: 10px;
     margin-right: 50px;
     margin-bottom: 30px;
+    overflow: hidden;
   
 
    
 }
-.divbutton h3 {
+.divbutton h2 {
     text-decoration: underline;
 }
 .divbutton:hover {
@@ -244,13 +263,16 @@ footer p, footer a {
     margin-bottom: 0px;
     }
 
-#logotagline h2{
+#logotagline h5{
     text-align: center;
     margin-top: -30px;
     font-family: celtic;
     font-size: 24px;
     color: whitesmoke;
     text-shadow: 6px 6px 12px black;
+}
+#logotagline h1 {
+    display: none;
 }
 
 #copy {
@@ -263,7 +285,7 @@ footer p, footer a {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 0px;
     
 }
 
@@ -275,7 +297,6 @@ footer p, footer a {
     
   
 }
-
 
 
 @media only screen and (min-width: 1500px) {
@@ -303,9 +324,9 @@ footer p, footer a {
         align-items: center;
     }
     
-    #logotagline h2 {
+    #logotagline h5 {
         margin-top: -15px;
-        font-size: 18px;
+        font-size: 14px;
     }
     #agreement {
         width: 600px;
@@ -318,6 +339,7 @@ footer p, footer a {
         display: flex;
         margin: auto;
     }
+
 }
   
 @media only screen and (max-width: 600px) {
@@ -338,7 +360,7 @@ footer p, footer a {
         width: 500px;
         height: 1750px;
     }
-    #logotagline h2 {
+    #logotagline h5 {
         margin-top: -5px;
         font-size: 12px;
     }
@@ -365,7 +387,7 @@ footer p, footer a {
         background-image: none;
         height: auto;
     }
-    #logotagline > h2 {
+    #logotagline > h5 {
         color: #805ea0;
         font-size: 10px;
         text-shadow: none;
@@ -373,4 +395,6 @@ footer p, footer a {
     .button_row button {
         margin-bottom: 20px;
     }
+    
+    
 }
