@@ -140,10 +140,17 @@ footer p, footer a {
     text-align: justify;
 }
 
+.justifyleft {
+    text-align: left;
+}
+
 .quote {
     text-align: center;
     font-style: italic;
     padding: 20px 20px;
+    max-width: 900px;
+    margin: auto;
+    
 }
 
 .col {
