@@ -142,6 +142,13 @@ a:hover {
     color: purple;
 }
 
+li {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-size: 14pt;
+
+}
+
 button {
     background-color: #38761d;
     color: #ffff;
